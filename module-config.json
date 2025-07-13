@@ -1,0 +1,8 @@
+{
+  "modules": {
+    "content_custom": {
+      "display_severity": "low",
+      "display_confidence": "low"
+    }
+  }
+}
