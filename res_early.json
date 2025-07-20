@@ -1,0 +1,1150 @@
+{
+	"version": "dev",
+	"skipped": [
+		"res_early.json"
+	],
+	"ignore": [
+		"*.git/*",
+		"**/*go-earlybird*",
+		"**/*.jpg",
+		"**/*.png",
+		"**/*.bmp",
+		"**/*.svg",
+		"**/*.mp3",
+		"**/*.wav",
+		"**/*.ogg",
+		"**/*.gif",
+		"**/*.tif",
+		"**/*.tiff",
+		"**/*.psd",
+		"**/*.xcf",
+		"**/*.gz",
+		"**/*.tar",
+		"**/*.7z",
+		"**/*.pyc",
+		"**/.git/*",
+		"**/*.svn*",
+		"**/*vendor*",
+		"**/bin/*",
+		"**/binaries/*",
+		"**/pom.xml*",
+		"**/release.properties",
+		"**/dependency-reduced-pom.xml",
+		"**/*.DS_Store",
+		"**/.classpath",
+		"**/.checkstyle",
+		"**/*.class",
+		"**/*hs_err_pid*",
+		"**/.idea",
+		"**/*.iml",
+		"**/*.vertx",
+		"**/*.swf",
+		"**/*.exe",
+		"**/*.bin",
+		"**/*.min.js",
+		"**/*.js.map",
+		"**/*.debug.js",
+		"**/*.bundled.js",
+		"**/*.ts.map",
+		"**/*.min.map",
+		"**/*.ttf",
+		"**/*.eot",
+		"**/*.html",
+		"**/*.woff",
+		"**/*.otf",
+		"**/*.xsd",
+		"**/*.xjb",
+		"**/*.ico",
+		"**/*.pdf",
+		"**/*.docx",
+		"**/*.scss",
+		"**/*.less",
+		"**/*.css",
+		"**/*.css.map",
+		"**/*.min.css",
+		"**/*jquery*",
+		"**/node_modules/*",
+		"**/*.lock",
+		"**/package-lock.json",
+		"**/*LICENSE*",
+		"**/npm-shrinkwrap.json",
+		"**/*.g4",
+		"**/go.sum",
+		"**/CHANGELOG*",
+		"**/changelog-archive/*"
+	],
+	"threshold": 4,
+	"modules": [
+		"ccnumber",
+		"content",
+		"filename",
+		"inclusivity-rules",
+		"password-secret"
+	],
+	"hits": [
+		{
+			"code": 3019,
+			"filename": ".git/config",
+			"caption": "Potential URL in file",
+			"category": "infrastructure",
+			"match_value": "https://github.com/e1st/test-secret-repo.git",
+			"line_value": "url = https://github.com/e1st/test-secret-repo.git",
+			"solution": "",
+			"line": 9,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"test",
+				"github",
+				"http_basic_auth",
+				"e1",
+				"proxy",
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3019,
+			"filename": ".git/hooks/fsmonitor-watchman.sample",
+			"caption": "Potential URL in file",
+			"category": "infrastructure",
+			"match_value": "(https://facebook.github.io/watchman/)",
+			"line_value": "# (https://facebook.github.io/watchman/) with git to speed up detecting",
+			"solution": "",
+			"line": 8,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"github",
+				"http_basic_auth",
+				"proxy",
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "7043a32e3115732e3a1b681aaa9f6c313ba35d13 b9276f4bb3ceb1a7ed034c4e549a81966f572f1d E1st \u003ccrosseu7412@gmail.com\u003e 1752414845 +0700\tcommit: remove temp_repo",
+			"solution": "",
+			"line": 4,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "b9276f4bb3ceb1a7ed034c4e549a81966f572f1d e31f70b1816f009cf5fb00bf3bea0e58aa850468 E1st \u003ccrosseu7412@gmail.com\u003e 1752414874 +0700\tcommit: remove result file",
+			"solution": "",
+			"line": 5,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325738 +0700\tcommit (initial): first commit",
+			"solution": "",
+			"line": 1,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3062,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential National ID in file",
+			"category": "pii",
+			"match_value": "00000000000",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325738 +0700\tcommit (initial): first commit",
+			"solution": "",
+			"line": 1,
+			"severity": "critical",
+			"severity_id": 1,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": [
+				"germany",
+				"steuer-id",
+				"nationalid"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "2c05de3b176cc2f3853a095668e3f4d2500d5a12 7043a32e3115732e3a1b681aaa9f6c313ba35d13 E1st \u003ccrosseu7412@gmail.com\u003e 1752414786 +0700\tcommit: add password-leaked.txt for secret scanning test",
+			"solution": "",
+			"line": 3,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "6c0a39b38f4e553393fb05fcab21c042586f037e 2c05de3b176cc2f3853a095668e3f4d2500d5a12 E1st \u003ccrosseu7412@gmail.com\u003e 1752401146 +0700\tcommit: Remove PGP files for testing",
+			"solution": "",
+			"line": 2,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "872308edc32091defc309e384bf9d807341b01c8 7a61e10d51a127543a7c8ee36c6a8bb43e85d548 E1st \u003ccrosseu7412@gmail.com\u003e 1752416856 +0700\tcommit: add password-leaks2.txt for secret scanning test in other branch",
+			"solution": "",
+			"line": 8,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "872308edc32091defc309e384bf9d807341b01c8 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752416803 +0700\tcheckout: moving from main to test-leak",
+			"solution": "",
+			"line": 7,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "7043a32e3115732e3a1b681aaa9f6c313ba35d13 b9276f4bb3ceb1a7ed034c4e549a81966f572f1d E1st \u003ccrosseu7412@gmail.com\u003e 1752414845 +0700\tcommit: remove temp_repo",
+			"solution": "",
+			"line": 4,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "2c05de3b176cc2f3853a095668e3f4d2500d5a12 7043a32e3115732e3a1b681aaa9f6c313ba35d13 E1st \u003ccrosseu7412@gmail.com\u003e 1752414786 +0700\tcommit: add password-leaked.txt for secret scanning test",
+			"solution": "",
+			"line": 3,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/HEAD",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "e31f70b1816f009cf5fb00bf3bea0e58aa850468 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752414910 +0700\tcommit: remove json file",
+			"solution": "",
+			"line": 6,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "6c0a39b38f4e553393fb05fcab21c042586f037e 2c05de3b176cc2f3853a095668e3f4d2500d5a12 E1st \u003ccrosseu7412@gmail.com\u003e 1752401146 +0700\tcommit: Remove PGP files for testing",
+			"solution": "",
+			"line": 2,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "e31f70b1816f009cf5fb00bf3bea0e58aa850468 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752414910 +0700\tcommit: remove json file",
+			"solution": "",
+			"line": 6,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325738 +0700\tcommit (initial): first commit",
+			"solution": "",
+			"line": 1,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3062,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential National ID in file",
+			"category": "pii",
+			"match_value": "00000000000",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325738 +0700\tcommit (initial): first commit",
+			"solution": "",
+			"line": 1,
+			"severity": "critical",
+			"severity_id": 1,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": [
+				"germany",
+				"steuer-id",
+				"nationalid"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "b9276f4bb3ceb1a7ed034c4e549a81966f572f1d e31f70b1816f009cf5fb00bf3bea0e58aa850468 E1st \u003ccrosseu7412@gmail.com\u003e 1752414874 +0700\tcommit: remove result file",
+			"solution": "",
+			"line": 5,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/test-leak",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "0000000000000000000000000000000000000000 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752416803 +0700\tbranch: Created from HEAD",
+			"solution": "",
+			"line": 1,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3062,
+			"filename": ".git/logs/refs/heads/test-leak",
+			"caption": "Potential National ID in file",
+			"category": "pii",
+			"match_value": "00000000000",
+			"line_value": "0000000000000000000000000000000000000000 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752416803 +0700\tbranch: Created from HEAD",
+			"solution": "",
+			"line": 1,
+			"severity": "critical",
+			"severity_id": 1,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": [
+				"germany",
+				"steuer-id",
+				"nationalid"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "7043a32e3115732e3a1b681aaa9f6c313ba35d13 b9276f4bb3ceb1a7ed034c4e549a81966f572f1d E1st \u003ccrosseu7412@gmail.com\u003e 1752414850 +0700\tupdate by push",
+			"solution": "",
+			"line": 4,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "e31f70b1816f009cf5fb00bf3bea0e58aa850468 872308edc32091defc309e384bf9d807341b01c8 E1st \u003ccrosseu7412@gmail.com\u003e 1752414916 +0700\tupdate by push",
+			"solution": "",
+			"line": 6,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325945 +0700\tupdate by push",
+			"solution": "",
+			"line": 1,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3062,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential National ID in file",
+			"category": "pii",
+			"match_value": "00000000000",
+			"line_value": "0000000000000000000000000000000000000000 6c0a39b38f4e553393fb05fcab21c042586f037e E1st \u003ccrosseu7412@gmail.com\u003e 1752325945 +0700\tupdate by push",
+			"solution": "",
+			"line": 1,
+			"severity": "critical",
+			"severity_id": 1,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": [
+				"germany",
+				"steuer-id",
+				"nationalid"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/test-leak",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "0000000000000000000000000000000000000000 7a61e10d51a127543a7c8ee36c6a8bb43e85d548 E1st \u003ccrosseu7412@gmail.com\u003e 1752416867 +0700\tupdate by push",
+			"solution": "",
+			"line": 1,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3062,
+			"filename": ".git/logs/refs/remotes/origin/test-leak",
+			"caption": "Potential National ID in file",
+			"category": "pii",
+			"match_value": "00000000000",
+			"line_value": "0000000000000000000000000000000000000000 7a61e10d51a127543a7c8ee36c6a8bb43e85d548 E1st \u003ccrosseu7412@gmail.com\u003e 1752416867 +0700\tupdate by push",
+			"solution": "",
+			"line": 1,
+			"severity": "critical",
+			"severity_id": 1,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": [
+				"germany",
+				"steuer-id",
+				"nationalid"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "b9276f4bb3ceb1a7ed034c4e549a81966f572f1d e31f70b1816f009cf5fb00bf3bea0e58aa850468 E1st \u003ccrosseu7412@gmail.com\u003e 1752414877 +0700\tupdate by push",
+			"solution": "",
+			"line": 5,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "2c05de3b176cc2f3853a095668e3f4d2500d5a12 7043a32e3115732e3a1b681aaa9f6c313ba35d13 E1st \u003ccrosseu7412@gmail.com\u003e 1752414788 +0700\tupdate by push",
+			"solution": "",
+			"line": 3,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/remotes/origin/main",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "6c0a39b38f4e553393fb05fcab21c042586f037e 2c05de3b176cc2f3853a095668e3f4d2500d5a12 E1st \u003ccrosseu7412@gmail.com\u003e 1752401155 +0700\tupdate by push",
+			"solution": "",
+			"line": 2,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3014,
+			"filename": ".git/logs/refs/heads/test-leak",
+			"caption": "Potential email address in file",
+			"category": "infrastructure",
+			"match_value": "crosseu7412@gmail.com",
+			"line_value": "872308edc32091defc309e384bf9d807341b01c8 7a61e10d51a127543a7c8ee36c6a8bb43e85d548 E1st \u003ccrosseu7412@gmail.com\u003e 1752416856 +0700\tcommit: add password-leaks2.txt for secret scanning test in other branch",
+			"solution": "",
+			"line": 2,
+			"severity": "low",
+			"severity_id": 4,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"infrastructure"
+			],
+			"cwe": [
+				"CWE-312"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "password-leak2.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "password=123456",
+			"line_value": "password=123456",
+			"solution": "",
+			"line": 2,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3004,
+			"filename": "password-leak2.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "pass: qwerty",
+			"line_value": "user: alice, pass: qwerty",
+			"solution": "",
+			"line": 4,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "password-leak2.txt",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "admin_password=letmein",
+			"solution": "",
+			"line": 3,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"admin",
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "password-leak2.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "admin_password=letmein",
+			"line_value": "admin_password=letmein",
+			"solution": "",
+			"line": 3,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"admin",
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "password-leaked.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "password=123456",
+			"line_value": "password=123456",
+			"solution": "",
+			"line": 2,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3026,
+			"filename": "password-leak2.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "secret=correcthorsebatterystaple",
+			"line_value": "supersecret=correcthorsebatterystaple",
+			"solution": "",
+			"line": 5,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3004,
+			"filename": "password-leaked.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "pass: qwerty",
+			"line_value": "user: alice, pass: qwerty",
+			"solution": "",
+			"line": 4,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3026,
+			"filename": "password-leaked.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "secret=correcthorsebatterystaple",
+			"line_value": "supersecret=correcthorsebatterystaple",
+			"solution": "",
+			"line": 5,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "password-leaked.txt",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "admin_password=letmein",
+			"solution": "",
+			"line": 3,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"admin",
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "password-leaked.txt",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "admin_password=letmein",
+			"line_value": "admin_password=letmein",
+			"solution": "",
+			"line": 3,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"admin",
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3025,
+			"filename": "result.json",
+			"caption": "Suspicious comment",
+			"category": "comment",
+			"match_value": "*.debug",
+			"line_value": "\"**/*.debug.js\",",
+			"solution": "",
+			"line": 61,
+			"severity": "medium",
+			"severity_id": 3,
+			"confidence": "low",
+			"confidence_id": 4,
+			"labels": null,
+			"cwe": [
+				"CWE-546"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "result.json",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "\"match_value\": \"letmein\",",
+			"solution": "",
+			"line": 153,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "result.json",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "password=123456",
+			"line_value": "\"line_value\": \"password=123456\",",
+			"solution": "",
+			"line": 130,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "result.json",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "\"match_value\": \"admin_password=letmein\",",
+			"solution": "",
+			"line": 178,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"admin",
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 3057,
+			"filename": "result.json",
+			"caption": "Potentially Weak Password",
+			"category": "password-secret",
+			"match_value": "password=123456",
+			"line_value": "\"match_value\": \"password=123456\",",
+			"solution": "",
+			"line": 129,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "high",
+			"confidence_id": 2,
+			"labels": [
+				"weak password"
+			],
+			"cwe": [
+				"CWE-798",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "result.json",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "\"line_value\": \"admin_password=letmein\",",
+			"solution": "",
+			"line": 179,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"admin",
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		},
+		{
+			"code": 1074,
+			"filename": "result.json",
+			"caption": "Potential default password in file",
+			"category": "password-secret",
+			"match_value": "letmein",
+			"line_value": "\"line_value\": \"admin_password=letmein\",",
+			"solution": "",
+			"line": 154,
+			"severity": "high",
+			"severity_id": 2,
+			"confidence": "medium",
+			"confidence_id": 3,
+			"labels": [
+				"admin",
+				"common"
+			],
+			"cwe": [
+				"CWE-521",
+				"CWE-312",
+				"CWE-257",
+				"CWE-259"
+			],
+			"time": "2025-07-13T14:28:54Z"
+		}
+	],
+	"hit_count": 47,
+	"files_scanned": 50,
+	"rules_observed": 144,
+	"start_time": "2025-07-13T14:28:54Z",
+	"end_time": "2025-07-13T14:28:54Z",
+	"duration": "10 ms"
+}
